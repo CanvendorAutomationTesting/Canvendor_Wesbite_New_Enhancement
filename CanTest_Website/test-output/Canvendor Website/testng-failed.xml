@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Canvendor Website]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Click All Top Buttons(failed)">
+    <classes>
+      <class name="testCases.Click_All_Top_Buttons">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="clickTopBtn"/>
+        </methods>
+      </class> <!-- testCases.Click_All_Top_Buttons -->
+    </classes>
+  </test> <!-- Click All Top Buttons(failed) -->
+</suite> <!-- Failed suite [Canvendor Website] -->

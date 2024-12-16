@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T11:45:45 IST" name="Canvendor Website Suite" finished-at="2024-11-19T11:48:01 IST" duration-ms="135715">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T11:45:45 IST" name="Test Top Navigation Buttons" finished-at="2024-11-19T11:45:57 IST" duration-ms="12046">
+      <class name="testCases.Click_Top__Navigation_Button">
+        <test-method signature="clickTopBtn()[pri:0, instance:testCases.Click_Top__Navigation_Button@1190200a]" started-at="2024-11-19T11:45:45 IST" name="clickTopBtn" finished-at="2024-11-19T11:45:57 IST" duration-ms="11936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTopBtn -->
+      </class> <!-- testCases.Click_Top__Navigation_Button -->
+    </test> <!-- Test Top Navigation Buttons -->
+    <test started-at="2024-11-19T11:45:57 IST" name="Test Top All Services " finished-at="2024-11-19T11:46:24 IST" duration-ms="26703">
+      <class name="testCases.Click_All_Service_Options">
+        <test-method signature="serviceOptions()[pri:0, instance:testCases.Click_All_Service_Options@6a03bcb1]" started-at="2024-11-19T11:45:57 IST" name="serviceOptions" finished-at="2024-11-19T11:46:24 IST" duration-ms="26699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serviceOptions -->
+      </class> <!-- testCases.Click_All_Service_Options -->
+    </test> <!-- Test Top All Services  -->
+    <test started-at="2024-11-19T11:46:24 IST" name="Test Top All Industries" finished-at="2024-11-19T11:46:42 IST" duration-ms="17495">
+      <class name="testCases.Click_All_Industries_Options">
+        <test-method signature="clickIndustriesBtn()[pri:0, instance:testCases.Click_All_Industries_Options@2118cddf]" started-at="2024-11-19T11:46:24 IST" name="clickIndustriesBtn" finished-at="2024-11-19T11:46:42 IST" duration-ms="17486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickIndustriesBtn -->
+      </class> <!-- testCases.Click_All_Industries_Options -->
+    </test> <!-- Test Top All Industries -->
+    <test started-at="2024-11-19T11:46:42 IST" name="Test Careers Page" finished-at="2024-11-19T11:46:44 IST" duration-ms="2257">
+      <class name="testCases.Click_Careers_Page_Input">
+        <test-method signature="clickCareers()[pri:0, instance:testCases.Click_Careers_Page_Input@6236eb5f]" started-at="2024-11-19T11:46:42 IST" name="clickCareers" finished-at="2024-11-19T11:46:44 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCareers -->
+      </class> <!-- testCases.Click_Careers_Page_Input -->
+    </test> <!-- Test Careers Page -->
+    <test started-at="2024-11-19T11:46:44 IST" name="Test contact Input Details" finished-at="2024-11-19T11:47:09 IST" duration-ms="24785">
+      <class name="testCases.Contact_Page_InputDetails">
+        <test-method signature="contactInput()[pri:0, instance:testCases.Contact_Page_InputDetails@65b3f4a4]" started-at="2024-11-19T11:46:44 IST" name="contactInput" finished-at="2024-11-19T11:47:09 IST" duration-ms="24781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactInput -->
+      </class> <!-- testCases.Contact_Page_InputDetails -->
+    </test> <!-- Test contact Input Details -->
+    <test started-at="2024-11-19T11:47:09 IST" name="Input Invalid Contact Details" finished-at="2024-11-19T11:48:01 IST" duration-ms="52198">
+      <class name="testCases.Contact_Page_Input_InvalidDetails">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.Contact_Page_Input_InvalidDetails@186f8716]" started-at="2024-11-19T11:45:35 IST" name="launchBrowser" finished-at="2024-11-19T11:45:45 IST" duration-ms="10086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="invalidInput()[pri:0, instance:testCases.Contact_Page_Input_InvalidDetails@186f8716]" started-at="2024-11-19T11:47:09 IST" name="invalidInput" finished-at="2024-11-19T11:48:01 IST" duration-ms="52184" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=131.0.6778.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de29878b5e8eebdb05025433042f9edb, findElement {value=//button[text()='Ok'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\SUDARB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64822/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de29878b5e8eebdb05025433042f9edb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Ok']"}
+  (Session info: chrome=131.0.6778.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de29878b5e8eebdb05025433042f9edb, findElement {value=//button[text()='Ok'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.70, chrome: {chromedriverVersion: 131.0.6778.69 (77e2244bbcda..., userDataDir: C:\Users\SUDARB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64822/devtoo..., se:cdpVersion: 131.0.6778.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de29878b5e8eebdb05025433042f9edb
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:474)
+at testCases.Contact_Page_Input_InvalidDetails.scrollAndClick(Contact_Page_Input_InvalidDetails.java:129)
+at testCases.Contact_Page_Input_InvalidDetails.invalidInput(Contact_Page_Input_InvalidDetails.java:108)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidInput -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.Contact_Page_Input_InvalidDetails@186f8716]" started-at="2024-11-19T11:48:01 IST" name="closeBrowser" finished-at="2024-11-19T11:48:02 IST" duration-ms="1130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.Contact_Page_Input_InvalidDetails -->
+    </test> <!-- Input Invalid Contact Details -->
+  </suite> <!-- Canvendor Website Suite -->
+</testng-results>

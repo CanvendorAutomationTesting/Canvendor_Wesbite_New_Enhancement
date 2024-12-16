@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Canvendor Website Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Input Invalid Contact Details(failed)">
+    <classes>
+      <class name="testCases.Contact_Page_Input_InvalidDetails">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="invalidInput"/>
+        </methods>
+      </class> <!-- testCases.Contact_Page_Input_InvalidDetails -->
+    </classes>
+  </test> <!-- Input Invalid Contact Details(failed) -->
+</suite> <!-- Failed suite [Canvendor Website Suite] -->

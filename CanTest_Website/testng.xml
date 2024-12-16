@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Canvendor Website Suite">
+    <test name="Test Top Navigation Buttons">
+        <classes>
+            <class name="testCases.Click_Top__Navigation_Button" />
+              
+        </classes>
+    </test>
+    <test name="Test Top All Services ">
+     <classes>
+            <class name="testCases.Click_All_Service_Options" />
+             
+        </classes>
+    </test>
+    
+   <test name="Test Top All Industries">
+    <classes>
+    <class name="testCases.Click_All_Industries_Options"></class>
+    </classes>
+    </test>
+    
+   <test name="Test Careers Page">
+    <classes>
+    <class name="testCases.Click_Careers_Page_Input"></class>
+    </classes>
+ 
+    </test>
+    
+   <test name="Test contact Input Details">
+    
+    <classes>
+    <class name="testCases.Contact_Page_InputDetails"></class>	
+    
+    </classes>
+    </test>
+    
+    <test name="Input Invalid Contact Details">
+    <classes>
+    <class name="testCases.Contact_Page_Input_InvalidDetails"></class>
+    
+
+    </classes>
+    </test>
+    
+</suite>
